@@ -1,3 +1,7 @@
+# LiveCourt
+
+### While this project is my own, I will welcome any contributions via PRs
+
 This is a work in progress for a tennis app. The main goal of this app is to provide a platform for tennis viewers to both keep track of a live tennis match and to view the match score live from a remote location. The idea is that any interested party viewing a match live can input the score of the match as it progresses and the app will update the score in real time for all other viewers.
 
 The app will have multiple iterations:
@@ -8,6 +12,6 @@ The app will have multiple iterations:
 
 The app will be built using React and Material UI for the frontend and possibly firebase for the backend. The wireframes are created using Figma. Eventually, once the first iteration will be complete, this will be available on my personal domain at livecourt.anaisdawes.com.
 
-# Getting started
+## Getting started
 
 To view the app, clone the git repo and run `yarn start` in the terminal. This will open the app in your browser at localhost:3000. This will provide a frontend view of the app as it is being built. The backend will be available at a later date.
