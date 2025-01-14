@@ -10,6 +10,6 @@ The app will have multiple iterations:
 
 The app will be built using React and Material UI for the frontend and possibly firebase for the backend. The wireframes are created using Figma. Eventually, once the first iteration will be complete, this will be available on my personal domain at livecourt.anaisdawes.com.
 
-# Getting started
+## Getting started
 
 To view the app, clone the git repo and run `yarn start` in the terminal. This will open the app in your browser at localhost:3000. This will provide a frontend view of the app as it is being built. The backend will be available at a later date.
