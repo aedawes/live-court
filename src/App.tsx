@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeProvider, CssBaseline } from "@mui/material";
+import { theme } from "./Theme";
+import TrackScore from "./screens/TrackMatch";
+import LiveScore from "./screens/LiveScore";
+import PastScores from "./screens/PastScores";
+import "./App.css";
+import "./styles/Theme.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Routes>
+          <Route path="/" element={<LiveScore />} />
+          <Route path="/Track" element={<TrackScore />} />
+          <Route path="/PastScores" element={<PastScores />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 

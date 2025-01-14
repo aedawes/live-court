@@ -1,0 +1,22 @@
+.drawer {
+    height: 100vh;
+    width: fit-content;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    background-color: var(--main-foreground)
+}
+
+.drawer__link {
+    text-decoration: none;
+    font-family: Poppins;
+    color: var(--main-text);
+}
+
+.drawer-text {
+    font-family: Poppins;
+}
+
+.menu-icon {
+    height: 1.5rem;
+    margin-right: 1rem;
+}
