@@ -15,3 +15,12 @@ The app will be built using React and Material UI for the frontend and possibly 
 ## Getting started
 
 To view the app, clone the git repo and run `yarn start` in the terminal. This will open the app in your browser at localhost:3000. This will provide a frontend view of the app as it is being built. The backend will be available at a later date.
+
+## Wireframes
+
+<img width="308" alt="Screenshot 2025-01-16 at 12 26 09 PM" src="https://github.com/user-attachments/assets/a9a5ae1c-389c-453f-8e0e-e6633829065c" />
+<img width="309" alt="Screenshot 2025-01-16 at 12 26 46 PM" src="https://github.com/user-attachments/assets/442ec5a9-baff-4e9e-9d94-255ed1c86a48" />
+<img width="307" alt="Screenshot 2025-01-16 at 12 27 11 PM" src="https://github.com/user-attachments/assets/bd462411-ae16-4e20-8fd1-34f47a0fab13" />
+<img width="308" alt="Screenshot 2025-01-16 at 12 27 28 PM" src="https://github.com/user-attachments/assets/6f78a3fa-ba14-4486-bf8b-b1c56c639d05" />
+
+
